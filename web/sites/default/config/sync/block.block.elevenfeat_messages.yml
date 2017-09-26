@@ -1,0 +1,22 @@
+uuid: fe759461-d97c-4e89-bcd8-f89806e32736
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - elevenfeat
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: elevenfeat_messages
+theme: elevenfeat
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

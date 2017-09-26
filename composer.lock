@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "925f9f7e24d4d947802db43cf323dead",
+    "content-hash": "397a7d048c3086d0658457ae70bd00b3",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1107,8 +1107,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.4+6-dev",
-                    "datestamp": "1488219187",
+                    "version": "8.x-1.4+8-dev",
+                    "datestamp": "1506078544",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -1129,7 +1129,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/config_installer"
             },
-            "time": "2017-09-22 11:04:43"
+            "time": "2017-09-22T11:04:43+00:00"
         },
         {
             "name": "drupal/console",
@@ -4417,6 +4417,31 @@
             "time": "2017-06-01T20:52:29+00:00"
         },
         {
+            "name": "thememachine/eleven",
+            "version": "dev-demo",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thememachine/eleven.git",
+                "reference": "1e17afdea95bbe1e2ee8bf4a74fefcab7b891d60"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thememachine/eleven/zipball/1e17afdea95bbe1e2ee8bf4a74fefcab7b891d60",
+                "reference": "1e17afdea95bbe1e2ee8bf4a74fefcab7b891d60",
+                "shasum": ""
+            },
+            "type": "drupal-theme",
+            "license": [
+                "GPL-3"
+            ],
+            "description": "this one goes to 11",
+            "support": {
+                "source": "https://github.com/thememachine/eleven/tree/demo",
+                "issues": "https://github.com/thememachine/eleven/issues"
+            },
+            "time": "2017-09-04T23:57:30+00:00"
+        },
+        {
             "name": "twig/twig",
             "version": "v1.34.4",
             "source": {
@@ -6173,7 +6198,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/config_installer": 20
+        "drupal/config_installer": 20,
+        "thememachine/eleven": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

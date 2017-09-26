@@ -1,0 +1,22 @@
+uuid: 180da03d-b2f9-4367-8e5c-c76d7994d174
+langcode: en
+status: true
+dependencies:
+  theme:
+    - elevenfeat
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: elevenfeat_local_tasks
+theme: elevenfeat
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

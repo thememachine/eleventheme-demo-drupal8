@@ -26,7 +26,7 @@ services:
     expose:
       - "8080"
     environment:
-      - AMAZEEIO_URL=drupal.docker.amazee.io
+      - AMAZEEIO_URL=eleven-theme.docker.amazee.io
   php:
     build:
       context: .

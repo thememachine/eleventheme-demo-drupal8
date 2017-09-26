@@ -1,0 +1,22 @@
+uuid: a1d6d875-e78e-4a91-9f81-24cfc8a1a6a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - eleven
+_core:
+  default_config_hash: _0LmV3SUUIejyK3vW4GxadFrcGzvLEImJW3Yidl-6WE
+id: eleven_help
+theme: eleven
+region: messages
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 9266f7b9-7df5-493c-8512-54f0fcba7a73
+langcode: en
+status: true
+dependencies:
+  theme:
+    - elevenfeat
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: elevenfeat_local_actions
+theme: elevenfeat
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

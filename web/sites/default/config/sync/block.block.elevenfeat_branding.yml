@@ -1,16 +1,16 @@
-uuid: 27f6d045-75b0-46f6-bf50-c8f9f5ddba8f
+uuid: ceac2e43-4532-443e-bb56-dcd13d82e59b
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - elevenfeat
 _core:
   default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
-id: bartik_branding
-theme: bartik
-region: header
+id: elevenfeat_branding
+theme: elevenfeat
+region: breadcrumb
 weight: -6
 provider: null
 plugin: system_branding_block

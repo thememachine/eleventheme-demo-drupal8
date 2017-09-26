@@ -1,17 +1,17 @@
-uuid: d267f903-010e-4986-8c38-3601c2ec95d1
+uuid: 190f44f6-6b20-4cd1-8a8b-04e876c0e664
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - elevenfeat
 _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
-id: bartik_breadcrumbs
-theme: bartik
+id: elevenfeat_breadcrumbs
+theme: elevenfeat
 region: breadcrumb
-weight: 3
+weight: -5
 provider: null
 plugin: system_breadcrumb_block
 settings:
